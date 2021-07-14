@@ -1,0 +1,113 @@
+body{
+    /* margin-top: 0px; */
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+        /* Navigation Bar  */
+.UpperNavDiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    /* padding-top: 0.3%; */
+    
+    width: 100%;
+    /* position: fixed; */
+    /* margin-top: -3.5vh; */
+    background-color: #373434;
+    height: 33vw;
+}
+.UpperNavDiv>.upper{ 
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+.UpperNavDiv>.upper>.Upperbutton{
+    /* border: solid 5px red; */
+    width: 40%;
+}
+.Upperbutton>button{
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: #231717;
+    border: solid 2px #707070;
+    color: #FFF;
+    width: 30%;
+    height: 60%;
+    margin-top: 0px;
+}
+.Upperbutton>button:hover{
+background-color: #353333;
+}
+.Upperbutton{
+    padding-top: 0px;
+}
+.upper>h2{
+    color: #F3EFEF;
+}
+.lower{
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lower>button{
+    transition-duration: 1s;
+    background-color: #231717;
+    width: 30%;
+    color: #FFF;
+    font-size: 3vw;
+    border: solid 2px #707070;
+}
+.lower>button:hover{
+    background-color: #353333;
+}
+        /* Navigation bar ends Here  */
+
+
+
+
+            /* body Starts here  */
+.sectionI{
+    /* font-size: 100vw; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vw;
+    /* border: solid 3px red; */
+}
+.sectionI>button{
+    font-size: 8vw;
+    color: #F3EFEF;
+    width: 50%;
+}
+.customerRequest{
+    transition-duration: 1s;
+    background-color: #958E8E;
+    border: solid 1px #958E8E;
+}
+.customerRequest:hover{
+    background-color: #4e4a4a;
+    border: solid 1px #383333;
+
+}
+.ProgramProduct{ 
+    transition-duration: 1s;
+    background-color: #231717;
+    border: solid 1px #231717;
+}
+.ProgramProduct:hover{
+    background-color: #444444;
+    border: solid 1px #3b3a3a;
+}
