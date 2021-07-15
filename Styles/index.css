@@ -79,6 +79,7 @@ background-color: #353333;
 
 
             /* body Starts here  */
+    /* section one  */
 .sectionI{
     /* font-size: 100vw; */
     display: flex;
@@ -110,4 +111,22 @@ background-color: #353333;
 .ProgramProduct:hover{
     background-color: #444444;
     border: solid 1px #3b3a3a;
+}
+
+
+
+    /* section 2 */
+.sectionII{
+    justify-content: space-evenly;
+    border: solid 3px red;
+    height: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+.sectionII>button{
+    border-top: transparent;
+    border-right: transparent;
+    height: 30%;
+    width: 40%;
 }
