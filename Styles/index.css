@@ -1,4 +1,5 @@
 body{
+    height: 100%;
     /* margin-top: 0px; */
     padding: 0px;
     margin: 0px;
@@ -174,8 +175,29 @@ background-color: #353333;
 .requests>button{
     color: white;
     background-color: #958E8E;
-    font-size: 250%;
+    font-size: 100%;
     font-weight: bolder;
     width: 98%;
     height: 17%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* footer panel */
+.footer{
+    background-color: #373434;
+    margin-bottom: -3%;
+    color: white;
+    font-size: 1.5vw;
+    
 }
