@@ -5,15 +5,15 @@
 //Divs
 var UpperDiv = document.querySelector(".Upperbutton");
 //Btns
-var accountBtn = document.querySelector(".account");
+// var accountBtn = document.querySelector(".account");
 
 // variable
         //Lower Section
 //Divs
-var lower = document.querySelector(".lower"),
-//Btns
-    createOrderbtn = document.querySelector(".create"),
-    postSoftwareBtn = document.querySelector(".postSoftware");  
+var lower = document.querySelector(".lower");
+// //Btns
+//     createOrderbtn = document.querySelector(".create"),
+//     postSoftwareBtn = document.querySelector(".postSoftware");  
 
     // chatbtn = document.querySelector(".chats");
 
@@ -26,17 +26,17 @@ var lower = document.querySelector(".lower"),
 
             // body starts here 
     //Chat Div
-var chats= document.querySelector(".mrDavis");
+// var chats= document.querySelector(".mrDavis");
 
     //PageLinking
-pageLinking(chats, "chatbody.html")
+// pageLinking(chats, "#")
 
 
 
 
         
 // variable
-var backBtn= document.querySelector(".backBtn");
+var backBtn= document.querySelector(".Back");
 
 backBtn.addEventListener("click", function(){
     window.history.back()
@@ -45,7 +45,7 @@ backBtn.addEventListener("click", function(){
 
 
 //PageLinking
-pageLinking(accountBtn, "Account.html")
+// pageLinking(accountBtn, "Account.html")
 
 
 
