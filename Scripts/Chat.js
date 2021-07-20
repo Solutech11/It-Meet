@@ -14,6 +14,7 @@ var lower = document.querySelector(".lower"),
 //Btns
     createOrderbtn = document.querySelector(".create"),
     postSoftwareBtn = document.querySelector(".postSoftware");  
+
     // chatbtn = document.querySelector(".chats");
 
 
@@ -24,6 +25,16 @@ var lower = document.querySelector(".lower"),
 
 
             // body starts here 
+    //Chat Div
+var chats= document.querySelector(".mrDavis");
+
+    //PageLinking
+pageLinking(chats, "#")
+
+
+
+
+        
 // variable
 var backBtn= document.querySelector(".backBtn");
 
