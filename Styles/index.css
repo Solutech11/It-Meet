@@ -39,7 +39,7 @@ hr{
 }
 .UpperNavDiv>.upper>.Upperbutton{
     /* border: solid 5px red; */
-    width: 40%;
+    width: 50%;
 }
 .Upperbutton>button{
     transition-duration: 1s;
