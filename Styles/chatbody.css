@@ -115,14 +115,20 @@ background-color: #353333;
     text-decoration: #373434 underline 3px;
     /* border-bottom: #373434 solid 4px; */
 }
+
+.sender{
+    text-align: left;
+    text-decoration: #373434 underline 3px;
+    /* border-bottom: #373434 solid 4px; */
+}
 .buttomSec{
-    z-index: 10;
+    /* z-index: 10; */
     margin-top: 21.1%;
     height: 60px;
     color: #F3EFEF;
     width: 100%;
     display: flex;
-    position:fixed;
+    /* position:fixed; */
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -147,6 +153,19 @@ background-color: #353333;
     border-radius: 40px;
 }
 .send{
+    height: 85%;
+    width: 10%;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    padding: 0%;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+.imageadder{
     height: 85%;
     width: 10%;
     background-color: transparent;
