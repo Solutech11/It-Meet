@@ -1,5 +1,5 @@
     // Header Section 
-
+    
 // variable
         // upper Section 
 //Divs
@@ -13,9 +13,9 @@ var accountBtn = document.querySelector(".account"),
 //Divs
     lower = document.querySelector(".lower"),
 //Btns
-    createOrderbtn = document.querySelector(".create"),
-    postSoftwareBtn = document.querySelector(".postSoftware"),
-    chatbtn = document.querySelector(".chats");
+    // createOrderbtn = document.querySelector(".create"),
+    postSoftwareBtn = document.querySelector(".postSoftware");
+    // chatbtn = document.querySelector(".chats");
 
 
 
@@ -23,55 +23,16 @@ var accountBtn = document.querySelector(".account"),
 pageLinking(accountBtn, "Account.html")
 pageLinking(LoginBtn,"#")
 pageLinking(SignupBtn, "#")
-pageLinking(createOrderbtn, "Customer request.html")
+// pageLinking(createOrderbtn, "#")
 pageLinking(postSoftwareBtn, "#")
-pageLinking(chatbtn, "ChatList.html")
+// pageLinking(chatbtn, "ChatList.html")
 
 
-        //header ended
+var backBtn= document.querySelector(".backBtn");
 
-
-
-
-
-
-
-
-        //body
-//var
-var customerRequest= document.querySelector(".customerRequest"),
-    programProduct = document.querySelector(".ProgramProduct");
-
-
-//page linking
-pageLinking(customerRequest, "#")
-pageLinking(programProduct, "#")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+backBtn.addEventListener("click", function(){
+    window.history.back()
+})
 
 
 

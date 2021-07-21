@@ -1,0 +1,191 @@
+body{
+    height: 100%;
+    /* margin-top: 0px; */
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+        /* general */
+hr{
+    width: 90%;
+}
+
+        /* Navigation Bar  */
+.UpperNavDiv{
+    padding: -2%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    /* padding-top: 0.3%; */
+    
+    width: 100%;
+    /* position: fixed; */
+    /* margin-top: -3.5vh; */
+    background-color: #373434;
+    height: 200px;
+}
+@media screen and (max-width: 375px){
+    .UpperNavDiv{
+        height: 50px;
+    }
+    
+}
+.UpperNavDiv>.upper{ 
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+.Upperbutton>button{
+    margin-right: 0%;
+    transition-duration: 1s;
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: #231717;
+    border: solid 2px #707070;
+    color: #FFF;
+    width: 15vw;
+    height: 100%;
+    margin-top: 0px;
+}
+.Upperbutton>button:hover{
+background-color: #353333;
+}
+.Upperbutton{
+    padding-top: 0px;
+}
+.upper>h2{
+    color: #F3EFEF;
+}
+.lower{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: right; */
+    /* justify-content: left; */
+    justify-content: space-evenly;
+}
+.lower>button{
+    margin-left: 70%;
+    margin-top: 0%;
+    transition-duration: 1s;
+    background-color: #231717;
+    width: 30%;
+    color: #FFF;
+    font-size: 2vw;
+    border: solid 2px #707070;
+}
+.lower>button:hover{
+    background-color: #353333;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.backBtn{  
+    border-bottom-right-radius: 100px;
+    font-size: 4vw;
+    height: 60px;
+    width: 150px;
+    background-color: #231717;
+    color: #FFF;
+}
+
+        /* Navigation bar ends Here  */
+
+        /* Body starts here Ohh */
+
+.requestDiv{
+    /* display: flex;
+    flex-direction: column; */
+    border: solid 3px #353333;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+    border-radius: 40px;
+    /* text-align: center; */
+}
+.basicDetDiv{
+    text-align: center;
+    border: solid 3px #353333;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding-bottom: 2%;
+}
+.Others{
+    text-align: center;
+    border: solid 3px #353333;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+    border-radius: 30px;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+.basicDetDiv>input{
+    border-top: transparent;
+    border-left: transparent;
+    /* margin-top:0%; */
+    border-radius: 30px;
+    margin-top: 0%;
+    width: 85%;
+    font-size: 3vw;
+    /* height: 2vw; */
+}
+.basicDetDiv>textarea{
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 10px;
+    font-size: 3vw;
+}
+.Others>input{
+    border-top: transparent;
+    border-left: transparent;
+    border-radius: 30px;
+    margin-top: 0%;
+    width: 85%;
+    font-size: 3vw;
+    /* height: 2vw; */
+}
+.submit{
+    transition-duration: 2s;
+    font-size: 4vw;
+    background-color: #353333;
+    color: #FFF;
+    width: 30%;
+    margin-left: 35%;
+    height: 7vw;
+    border: 0ch
+}
+.submit:hover{
+    transition-duration: 2s;
+
+    background-color: #707070;
+}
+.submit:active{
+    transition-duration: 0s;
+
+    background-color: #231717;
+}
+
+        /* body ends here  */
+
+        /* footer panel */
+.footer{
+    background-color: #373434;
+    margin-bottom: -3%;
+    color: white;
+    font-size: 1.5vw;
+    
+}

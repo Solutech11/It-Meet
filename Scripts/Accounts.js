@@ -9,7 +9,7 @@ var lower = document.querySelector(".lower"),
     postSoftwareBtn = document.querySelector(".postSoftware"),
     chatbtn = document.querySelector(".chats");
 
-
+pageLinking(createOrderbtn, "Customer request.html")
 
 //PageLinking
 // pageLinking(accountBtn, "Account.html")
