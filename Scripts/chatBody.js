@@ -31,7 +31,7 @@ sendbtn.addEventListener("click", function(){
     }else if(input.value==="Im good nd you"){
         sender("Im also good. what do you need me to do?")
 
-    }else if(input.value==="Im good" || input.value==="im good"){
+    }else if(input.value==="Im good" || input.value==="I'm good"){
         sender("thats nice. Iv been working all day")
     }else if(input.value==="Why"){
         sender("Its all because of you")
@@ -52,7 +52,7 @@ sendbtn.addEventListener("click", function(){
         sender("Solutech and Abdulazeez")
     }else if(input.value==="I need a car"){
         sender("check this carit website")
-    }else if(input.value==="Im sleepy "){
+    }else if(input.value==="Im sleepy"){
         sender("Ok we will talk later")
     }else if(input.value==="Thunder fire you"){
         sender("have i done anything wrong")
@@ -87,6 +87,8 @@ sendbtn.addEventListener("click", function(){
         sender("fishy")
         sender("Its by Davido")
 
+    }else if(input.value==="Ok"){
+        sender("thats cool")
     }else{
         sender("Im busy, we will talk Later.")
     }
