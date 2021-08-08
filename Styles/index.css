@@ -24,9 +24,11 @@ body{
     background: rgba(51, 50, 50, 0.425); 
   }
 h1{
-    font-size: 35px;
+    font-size: 50px;
 }
 
+
+            /* header */
 .header{
     display: flex;
     align-items: center;
@@ -36,12 +38,44 @@ h1{
     width: 60%;
 }
 .otherLink>a{
-    margin-left: 15%;
-    
+    border-bottom-right-radius: 10px;
+    padding: 1%;
+    margin-left: 120px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+}
+
+
+
+.otherLink>a:hover{
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+
 }
 @media screen and (max-width:375px) {
     h1{
-        font-size: 30px;
+        font-size: 35px;
+    }
+    .otherLink>a{
+        border-bottom-right-radius: 10px;
+        /* padding: 1%; */
+        margin-left: 2px;
+        font-size: 15px;
+
     }
     
+    
+    
+    
 }
+
+
+
+
+        /* body */
