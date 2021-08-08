@@ -1,0 +1,47 @@
+body{
+    margin-left: 3%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 6px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(51, 50, 50, 0.425); 
+  }
+h1{
+    font-size: 35px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.otherLink{
+    width: 60%;
+}
+.otherLink>a{
+    margin-left: 15%;
+    
+}
+@media screen and (max-width:375px) {
+    h1{
+        font-size: 30px;
+    }
+    
+}
