@@ -99,6 +99,8 @@ h1{
             display: flex;
              flex-direction: row; 
              justify-content: space-between;
+             align-items: center;
+             margin-bottom: 70px;
         }
 .upperBasicImg{
     width: 800px;
@@ -116,4 +118,46 @@ h1{
         width: 500px;
     }
     
+}
+
+
+        /* Top Developer */
+.topDeveloper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+/* vj021450 */
+.topDeveloper>div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 3px;
+    /* scrollbar-shadow-color: ; */
+    box-shadow: inset 0 0 5px grey;
+    box-shadow: rgba(51, 50, 50, 0.425) 6px;
+}
+.topDeveloper>div>img{
+    /* width: 90%; */
+    height: 350px;
+}
+.topDeveloper>div>h2{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:720px) {
+    .topDeveloper>div{
+        padding: 2%;
+        /* font: inherit; */
+        width: 300px;
+        font-size: 13px;
+    }
+    .topDeveloper>div>img{
+        /* width: 90%; */
+        height: 200px;
+    }
 }
